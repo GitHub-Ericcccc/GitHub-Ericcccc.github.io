@@ -1,0 +1,31 @@
+.btn {
+  font-weight: 300;
+}
+
+.btn-primary {
+  background: #e16879;
+  border-color: #e16879;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  border-color: #e05164;
+}
+
+.container {
+    background-image: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height:auto;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
